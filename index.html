@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>John Doe - Data Scientist</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- Additional CSS Files Here -->
 </head>
@@ -11,37 +11,86 @@
 
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <!-- Navbar content here -->
+    <div class="container">
+        <a class="navbar-brand" href="#">John Doe</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
 
 <!-- Header Section -->
 <header class="jumbotron bg-primary text-white text-center">
-    <!-- Header content here -->
+    <div class="container">
+        <h1 class="display-4">John Doe</h1>
+        <p class="lead">Data Scientist | Machine Learning Enthusiast</p>
+    </div>
 </header>
 
 <!-- About Section -->
 <section id="about" class="container my-5">
-    <!-- About content here -->
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>About Me</h2>
+            <p>I am a passionate Data Scientist with a strong foundation in machine learning, statistics, and data analysis. With a Master's degree in Data Science from XYZ University, I specialize in turning data into insights and actionable strategies.</p>
+        </div>
+        <div class="col-lg-6">
+            <!-- Placeholder for image -->
+            <img src="https://via.placeholder.com/400" alt="John Doe" class="img-fluid">
+        </div>
+    </div>
 </section>
 
 <!-- Projects Section -->
 <section id="projects" class="container my-5">
-    <!-- Projects content here -->
-</section>
-
-<!-- Resume Section -->
-<section id="resume" class="container my-5">
-    <!-- Resume content here -->
+    <h2>Projects</h2>
+    <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                    <h5 class="card-title">Sales Forecasting Model</h5>
+                    <p class="card-text">Developed a machine learning model to forecast monthly sales for a retail company, improving forecasting accuracy by 20%.</p>
+                </div>
+            </div>
+        </div>
+        <!-- More projects can be added similarly -->
+    </div>
 </section>
 
 <!-- Contact Section -->
 <section id="contact" class="container my-5">
-    <!-- Contact content here -->
+    <h2>Contact</h2>
+    <form>
+        <div class="mb-3">
+            <label for="contactEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="contactMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+    </form>
 </section>
 
 <!-- Footer -->
 <footer class="bg-dark text-white text-center p-3">
-    <!-- Footer content here -->
+    <p>&copy; 2023 John Doe</p>
 </footer>
 
 <!-- Bootstrap JS and Optional JavaScript -->
